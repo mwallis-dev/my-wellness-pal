@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commit"
+  short_description: "Local commit with needed descriptions, never health records"
+  default_prompt: "Use $commit to create a local git commit for the current project changes. Add any missing description information first. Do not push."

@@ -29,6 +29,13 @@ Maintain a deliberately small, screenshot-only personal health log.
 - Never delete the user's original screenshots.
 - Do not create backup copies of annual health files.
 
+## Git commits
+
+- Use `.agents/skills/commit/SKILL.md` when creating a local git commit.
+- Add any missing skill, README, or AGENTS.md description the change needs before committing.
+- Commit only tracked project scaffolding and skills — never health records.
+- Do not push as part of the commit skill.
+
 ## Write integrity
 
 - Allow partial daily records.
