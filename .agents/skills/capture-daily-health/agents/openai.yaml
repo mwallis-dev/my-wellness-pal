@@ -1,0 +1,4 @@
+interface:
+  display_name: "Capture Daily Health"
+  short_description: "Capture screenshot-based daily health records"
+  default_prompt: "Use $capture-daily-health to extract and save this daily health screenshot batch."
