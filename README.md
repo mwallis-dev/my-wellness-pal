@@ -1,6 +1,6 @@
 # My Wellness Pal
 
-Screenshot-only personal health log for [Cursor](https://cursor.com). Drop in app screenshots; the agent saves a local Markdown record. Health data stays off GitHub (`health/` is gitignored).
+Screenshot-only personal health log. Drop in app screenshots; the agent saves a local Markdown record.
 
 ## How it works
 
