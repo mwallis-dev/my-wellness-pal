@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visualize Health Data"
+  short_description: "Create private descriptive views of health records"
+  default_prompt: "Use $visualize-health-data to create a private, descriptive visualization of my local health data."

@@ -12,6 +12,26 @@ Ask for **assessment**, **preview**, or **no save** if you want extraction witho
 
 Details: [`AGENTS.md`](./AGENTS.md) · [capture skill](./.agents/skills/capture-daily-health/SKILL.md)
 
+## Visualize your records
+
+Ask to **visualize**, **compare**, or **explore** the saved records. The
+[`visualization skill`](./.agents/skills/visualize-health-data/SKILL.md) starts
+with a private, read-only Markdown view and keeps missing values visible. It
+does not add targets, medical interpretation, or causal claims.
+
+### Local web dashboard
+
+To view the richer dashboard in a normal web browser:
+
+```bash
+python3 scripts/serve_health_dashboard.py
+```
+
+Then open <http://127.0.0.1:8765>. The server is available only on this
+computer, reads approved fields from the ignored annual health files at request
+time, and does not persist rendered health data. The dashboard defaults to the
+latest 14 recorded days; use `?days=30` to change the number shown.
+
 ## What is captured
 
 **Outsiders App** — readiness (score, description); body metrics (sleeping heart rate, HRV, respiratory rate, blood oxygen); sleep (duration, quality)

@@ -43,3 +43,10 @@ Maintain a deliberately small, screenshot-only personal health log.
 - Never infer, carry forward, or silently replace a health value.
 - Stop for unresolved dates, incompatible layouts, unreadable values, or conflicting values.
 - Limit every edit to the affected dated section and verify it after writing.
+
+## Visualization
+
+- Use `.agents/skills/visualize-health-data/SKILL.md` when viewing, charting, comparing, or exploring saved health data.
+- Keep source health records read-only during visualization.
+- Default to inline, descriptive views with no invented targets, medical interpretation, or causal claims.
+- Never publish, sync, stage, or commit a data-bearing visualization.
